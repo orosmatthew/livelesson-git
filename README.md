@@ -17,9 +17,6 @@
 - `git diff <HASH>`: compares HEAD with the commit in <HASH>
 
 - `git restore --source <HASH OR HEAD~> <FILE>`: restore file to <HASH OR HEAD~>
-
 	- `git checkout <HASH OR HEAD~> <FILE>`: restores file to <HASH OR HEAD~>
-	
 		- `git checkout <HASH OR HEAD~>`: if you forget the file, you end up in detached head state
-	
 		- `git switch master`: go back to master 
